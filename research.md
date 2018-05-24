@@ -33,6 +33,9 @@ One common approach is to choose different send times and measure the Open Rate 
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
+
+![first equation](http://latex.codecogs.com/gif.latex?%5Cfrac%7Ba%7D%7Bb%7D)
+
 <br>
 <br>
 
