@@ -18,7 +18,7 @@ One common approach is to choose different send times and measure the Open Rate 
 
 <img class="projects-image" src="images/bandit.jpeg">
 
-![alt text](https://blogs.mathworks.com/images/loren/2016/multiarmedbandit.jpg)
+![alt text](https://cdn-images-1.medium.com/max/1600/1*Tt8A6mP98ibBlrlFD5UJxg.png)
 
 <br>
 <br>
