@@ -21,20 +21,16 @@ One common approach is to choose different send times and measure the Open Rate 
 <br>
 <br>
 
+
+
+
 ### math (start with bayesian) stucchio
 ### steps algorithm (Sto)
 ### application to email campaign (STO)
 ### math (STO)
 ### results (Pulls and OR)
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
-![first equation](http://latex.codecogs.com/gif.latex?E%28p_i%29%20%3D%20%5Cfrac%7B%5Calpha_i%7D%7B%5Calpha_i%20&plus;%20%5Cbeta_i%7D)
-
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
-
-
-![first equation](http://latex.codecogs.com/gif.latex?%5Cfrac%7Ba%7D%7Bb%7D)
 
 <br>
 <br>
