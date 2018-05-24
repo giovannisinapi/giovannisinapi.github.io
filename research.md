@@ -21,13 +21,15 @@ $$\min_x f_{\text{logistic}}(x):= \sum_{i=1}^m\left\{\log\left(1+\exp{\left\lang
 
 
 ```Latex
-$\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
+$$\min_x f_{\text{logistic}}(x):= \sum_{i=1}^m\left\{\log\left(1+\exp{\left\langle f^i, x\right\rangle}\right) - s^i\left\langle f^i,x\right\rangle\right\} + \frac{\lambda}{2}\|x\|^2,$$
 ```
 
-![](documents/collapsibleTree.png)
+$ \{x_i \} $
 
 The translation $[\![e]\!]$ given by
 
+
+<img class="projects-image" src="images/bandit.jpeg">
 
 ### math (start with bayesian) stucchio
 ### steps algorithm (Sto)
