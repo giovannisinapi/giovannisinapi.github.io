@@ -1,6 +1,5 @@
 ---
 layout: default
-usemathjax: true
 ---
 
 # Research
@@ -21,7 +20,9 @@ One common approach is to choose different send times and measure the Open Rate 
 
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*Tt8A6mP98ibBlrlFD5UJxg.png)
 
-$$ \LaTeX $$
+
+
+$$ \frac{a}{b} $$
 $$ \LaTeX $$
 
 
@@ -30,59 +31,6 @@ $$ \LaTeX $$
 <br>
 
 
-
-Let's test some inline math $x$, $y$, $x_1$, $y_1$.
-
-CIAOOOOOO
-Now a inline math with special character: $|\psi\rangle$, $x'$, $x^\*$.
-
-Test a display math:
-$$
-   |\psi_1\rangle = a|0\rangle + b|1\rangle
-$$
-Is it O.K.?
-
-$$
-   T=\frac{a}{b}
-$$
-
-Test a display math with equation number:
-\begin{equation}
-   |\psi_1\rangle = a|0\rangle + b|1\rangle
-\end{equation}
-Is it O.K.?
-
-Test a display math with equation number:
-$$
-  \begin{align}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-  \end{align}
-$$
-Is it O.K.?
-
-And test a display math without equaltion number:
-$$
-  \begin{align\*}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-  \end{align\*}
-$$
-Is it O.K.?
-
-Test a display math with equation number:
-\begin{align}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-\end{align}
-Is it O.K.?
-
-And test a display math without equaltion number:
-\begin{align\*}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-\end{align\*}
-Is it O.K.?
 
 
 ### math (start with bayesian) stucchio
