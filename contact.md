@@ -3,24 +3,17 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [g.sinapi@gmail.com](mailto: g.sinapi@gmail.com)
 
-* Phone: [+91-123123](tel:+91-123123)
+* Phone: [+1 2064997352](tel:+1 2064997352)
 
 ---
 
-## Mailing Address
-
-> 221B, Baker Street
->
-> London
->
-> United Kingdom
 
 ---
 
 ## Social
 
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
+1. [Facebook](https://www.facebook.com/gsinapi)
+2. [Twitter](https://twitter.com/giovannisinapi?lang=en)
+3. [Github](https://github.com/giovannisinapi)

@@ -1,8 +1,8 @@
-- name: "teaching"
-  link: "teaching"
+- name: "contact"
+  link: "contact"
  
-- name: "coursework"
-  link: "coursework"
+- name: "writing"
+  link: "writing"
 
 - name: "research"
   link: "research"
