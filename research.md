@@ -47,10 +47,10 @@ One common approach is to choose different send times and measure the Open Rate 
 
 
 
-### math (start with bayesian) stucchio
-### steps algorithm (Sto)
+### math (start with bayesian) stucchio all the sections in general
+### steps algorithm to sum up (Sto)
 ### application to email campaign (STO)
-### math (STO)
+### math (STO) ???
 ### results (Pulls and OR)
 
 
