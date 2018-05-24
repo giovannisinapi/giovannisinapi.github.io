@@ -22,6 +22,8 @@ One common approach is to choose different send times and measure the Open Rate 
 $$ \LaTeX $$
 $$ \LaTeX $$
 
+CIAOOOOOO
+
 <br>
 <br>
 
