@@ -18,6 +18,3 @@ is_contact: true
 2. [Facebook](https://www.facebook.com/gsinapi)
 3. [Twitter](https://twitter.com/giovannisinapi?lang=en)
 4. [Github](https://github.com/giovannisinapi)
-
-
-![alt text](http://odintext.com/wp-content/uploads/2017/01/Machine-Learning-Artificial-Intelligence-text-analytics-softwaere.png)
