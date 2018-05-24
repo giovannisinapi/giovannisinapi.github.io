@@ -17,13 +17,14 @@ One common approach is to choose different send times and measure the Open Rate 
 
 The new equations is:
 
+$$ T =\frac{a}{c} $$
 
-![alt text](http://latex.codecogs.com/png.latex?%5Cfn_cm%20T%20%3D%5Cfrac%7Ba%7D%7Bc%7D)
+$ T =\frac{a}{c} $
 
-![alt text](http://latex.codecogs.com/png.latex?%5Cfn_cm%20T%20%3D%5Cfrac%7Ba%7D%7Bc%7D)
 
 <br>
 <br>
+
 
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*Tt8A6mP98ibBlrlFD5UJxg.png)
 
