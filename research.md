@@ -37,24 +37,9 @@ $$T =\frac{a}{b} $$
 <br>
 
 
-# Testing
 
-$a_e s_s$ We got no food we got no money and our pets heads are falling off!
-haaaaaaarry. excuse me, i'd like to ass you a few questions. we're going
-for a ride on the information **super** highway. look ma i'm road kill here
-she comes to wreck the day. alrighty then excuse me, i'd like to ass you
-a few questions. your entrance was good, his was better. your entrance
-was good, his was better. we're $a_e$ going for a ride on the information
-super highway. it's because i'm green isn't it! here she comes to wrecks
-the day. $a_e$
-
-[test](test4.md)
 
 $$
 R_{\mu \nu} - {1 \over 2}g_{\mu \nu}\,R + g_{\mu \nu} \Lambda =
   {8 \pi G \over c^4} T_{\mu \nu}
 $$
-
-Look at that, it's exactly three seconds before i honk your nose and
-pull your underwear over your head. ${8 \pi G} T_{\mu \nu}$ hey, maybe
-i will give you a call.
