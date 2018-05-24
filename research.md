@@ -22,13 +22,16 @@ One common approach is to choose different send times and measure the Open Rate 
 $$ \LaTeX $$
 $$ \LaTeX $$
 
-CIAOOOOOO
+
 
 <br>
 <br>
+
+
 
 Let's test some inline math $x$, $y$, $x_1$, $y_1$.
 
+CIAOOOOOO
 Now a inline math with special character: $|\psi\rangle$, $x'$, $x^\*$.
 
 Test a display math:
