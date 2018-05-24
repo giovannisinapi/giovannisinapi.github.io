@@ -14,16 +14,18 @@ Deciding which time slot is the the most effective one to send promotional email
 
 block:
 \\[ \frac{1}{n^{2}} \\]
-$$\frac{1}{2}$$
-$$\LaTeX$$
-$$ \frac{a}{b} $$
-$$ \LaTeX $$
 <br>
 <br>
 
 inline
 \\( 1/x^{2} \\)
-$ \LaTeX $
+
+inline
+\\( 1/x^{2} \\)
+
+Block:
+\\[ P(a < \theta_i < b) = \int_a^b f(x) dx \\]
+
 
 One common approach is to choose different send times and measure the Open Rate (OR) of the emails for each time slot. At some point, when the measured OR for one specific slot exceeds that of the other slots, we will switch to the one with the highest for all users. Algorithms for solving this problem are called bandit algorithms. For my analysis I chose a **Multi-Armed Bayesian Bandit Algorithm**.
 <br>
