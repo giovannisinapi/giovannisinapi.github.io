@@ -12,8 +12,6 @@ is_contact: true
 
 ## Social
 
-<img align="right" height="50" src="http://odintext.com/wp-content/uploads/2017/01/Machine-Learning-Artificial-Intelligence-text-analytics-softwaere.png">
-
 1. [LinkedIn](https://www.linkedin.com/in/giovanni-sinapi-492562a1/)
 2. [Facebook](https://www.facebook.com/gsinapi)
 3. [Twitter](https://twitter.com/giovannisinapi?lang=en)
