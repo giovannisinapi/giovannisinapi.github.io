@@ -19,6 +19,7 @@ The new equations is:
 
 $$ T =\frac{a}{c} $$
 
+$P(a < \theta_i < b) = \int_a^b f(x) dx$
 
 
 <br>
