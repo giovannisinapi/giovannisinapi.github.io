@@ -18,7 +18,8 @@ One common approach is to choose different send times and measure the Open Rate 
 
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*Tt8A6mP98ibBlrlFD5UJxg.png)
 
-
+$$ \LaTeX $$
+$$ \LaTeX $$
 
 <br>
 <br>
