@@ -3,6 +3,7 @@ url: "https://giovannisinapi.github.io"
 baseurl: ""
 
 markdown: kramdown
+mathjax: true
 
 tracking_id: #
 

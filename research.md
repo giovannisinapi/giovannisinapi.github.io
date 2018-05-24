@@ -12,7 +12,13 @@ The objective of building a reliable Send Time Optimization (STO) engine is the 
 
 Deciding which time slot is the the most effective one to send promotional emails is a huge challenge for many companies.
 
-New things are coming.
+\\[ \frac{1}{n^{2}} \\]
+\[ \frac{1}{2} \]
+$$\frac{1}{2}$$
+$$\LaTeX$$
+[\frac{1}{2}]
+\( 1/x^{2} \)
+\\( 1/x^{2} \\)
 
 One common approach is to choose different send times and measure the Open Rate (OR) of the emails for each time slot. At some point, when the measured OR for one specific slot exceeds that of the other slots, we will switch to the one with the highest for all users. Algorithms for solving this problem are called bandit algorithms. For my analysis I chose a **Multi-Armed Bayesian Bandit Algorithm**.
 <br>
