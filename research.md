@@ -26,6 +26,8 @@ inline
 Block:
 \\[ P(a < \theta_i < b) = \int_a^b f(x) dx \\]
 
+Block:
+\\[ P(a < \theta_i < b) = \int_a^b f(x) dx \\]
 
 One common approach is to choose different send times and measure the Open Rate (OR) of the emails for each time slot. At some point, when the measured OR for one specific slot exceeds that of the other slots, we will switch to the one with the highest for all users. Algorithms for solving this problem are called bandit algorithms. For my analysis I chose a **Multi-Armed Bayesian Bandit Algorithm**.
 <br>
