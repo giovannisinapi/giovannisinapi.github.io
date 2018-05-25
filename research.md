@@ -40,7 +40,7 @@ If the prior probability distributions are in the same family as the posterior d
 
 In our case, since we are measuring a binary outcome (did somebody open or not the email), we know that we are dealing with the Bernoulli distribution, making our likelihood:
 
-\\[ \P(X \mid\theta) = \prod_{i=1}^N \theta^{x_i}(1-\theta)^{1-x_i} \\]
+\\[ P(X \mid\theta) = \prod_{i=1}^N \theta^{x_i}(1-\theta)^{1-x_i} \\]
 
 The conjugate prior to the Bernoulli distribution is the Beta distribution:
 
@@ -49,9 +49,9 @@ The conjugate prior to the Bernoulli distribution is the Beta distribution:
 
 The parameters \\( \alpha_i, \beta_i > 1 \\) are the prior parameters. If we considered that all possible values of \\( \theta_i \\) are equally likely, a reasonable choice would have been \\( \alpha_i=\beta_i=1 \\), which amounts to the uniform distribution on \\( [0,1] \\). However, since we have observed past data for our users, we want to incorporate this information into our bandit algorithm. Therefore we fit a beta distribution to our empirical data and build our priors parameters based on the aggregate open rate of all relevant contacts for each bandit (time slot).
 
-After sending emails in the time slot \\( i \\) to \\( \n_i \\) contacts, we have observed that \\( \s_i \\) of them have actually opened the email in that time slot \\( i \\). Therefore we now want to compute the posterior distribution. Considered our prior \\( f_{\alpha_i,\beta_i}(\theta_i) \\), we can compute the posterior as follows:
+After sending emails in the time slot \\( i \\) to \\( n_i \\) contacts, we have observed that \\( s_i \\) of them have actually opened the email in that time slot \\( i \\). Therefore we now want to compute the posterior distribution. Considered our prior \\( f_{\alpha_i,\beta_i}(\theta_i) \\), we can compute the posterior as follows:
 
-\\[ \textrm{posterior} = f_{\alpha_i+s_i, \beta_i+n_i-s_i}(\theta_i) \\]
+\\[ f_{\alpha_i+s_i, \beta_i+n_i-s_i}(\theta_i) \\]
 
 In order to update our probability distribution describing \\( \theta_i \\), we need only to update the parameters of our beta distribution. As we run more experiments, our probability distribution becomes sharper:
 
@@ -62,10 +62,10 @@ Now we have to construct a method to optimize our open rates and find the best t
 
 ### Algorithm
 
-The \\( \texttt{Bayesian Bandits Strategy} \\) to find the best arm of a Multi-armed bandit is:
+The **Bayesian Bandits Strategy** to find the best arm of a Multi-armed bandit is:
 
 1. Sample a random variable \\( \theta_i \\) from the prior of bandit \\( i \\), for all \\( i \\)
-2. Select the bandit with the largest sample, i.e. select bandit \\( I = \argmax\X_b \\)
+2. Select the bandit with the largest sample, i.e. select bandit \\( I = argmax(X_b) \\)
 3. Observe the result of pulling bandit \\( I \\), and update the prior of bandit \\( I \\).
 4. Return to 1.
 
@@ -73,6 +73,16 @@ The basic idea of this strategy is to randomly pick each arm according to its pr
 The algorithm ensures that arms with a larger expected reward will tend to be exploited (picked more often). The randomness in choice of arm ensures that the algorithm continues to explore.
 
 ### Application and results
+
+In order to  send emails to each of the contacts with the best possible timing, the generic approach could be to decide on sending time based on previous success of different send times.
+We can assume each contact has an open rate in specific hour slots of the day and they open each email sent in that time slot with this probability. Depending on whether they opened a particular email in the time slot, we update the parameters of the distribution of that time slot in a bayesian manner. As time goes on we have more information, thus smaller variance in every time slot and with higher and higher probability we will send each email in the time slot with the highest open rate.
+
+
+![image](images/hours.png)
+
+From the graph above, it seems the most intense time to send and respond to emails is from 2 pm to midnight. Therefore, I selected 11 different 1-hour slots (corresponding to the aforementioned hours) and I decided on one sending in detail as follows: sample once from each of the 11 beta distributions and then run the algorithm for this tuple of \\( \theta \\) \\( (\theta_0 to \theta_10) \\), for k trials. I then repeated the experiment for N different possible days, or equivalently for N different tuples of \\( \theta \\).
+Before each sending we take the one year history of the contact and compute priors based on previous send times.
+This way we have as much information as possible for new contacts as well.
 
 
 
