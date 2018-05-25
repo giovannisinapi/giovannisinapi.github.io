@@ -78,9 +78,9 @@ In order to  send emails to each of the contacts with the best possible timing, 
 We can assume each contact has an open rate in specific hour slots of the day and they open each email sent in that time slot with this probability. Depending on whether they opened a particular email in the time slot, we update the parameters of the distribution of that time slot in a bayesian manner. As time goes on we have more information, thus smaller variance in every time slot and with higher and higher probability we will send each email in the time slot with the highest open rate.
 
 
-![image](images/hours.png)
+![image](images/new.png)
 
-From the graph above, it seems the most intense time to send and respond to emails is from 2 pm to midnight. Therefore, I selected 11 different 1-hour slots (corresponding to the aforementioned hours) and I decided on one sending in detail as follows: sample once from each of the 11 beta distributions and then run the algorithm for this tuple of \\( \theta \\) \\( (\theta_0 to \theta_10) \\), for k trials. I then repeated the experiment for N different possible days, or equivalently for N different tuples of \\( \theta \\).
+From the graph above, it seems the most intense time to send and respond to emails is from 2 pm to midnight. Therefore, I selected 11 different 1-hour slots (corresponding to the aforementioned hours) and I decided on one sending in detail as follows: sample once from each of the 11 beta distributions and then run the algorithm for this tuple of \\( \theta_i \\) where \\( i= 1...11 \\), for k trials. I then repeated the experiment for N different possible days, or equivalently for N different tuples of \\( \theta_i \\).
 Before each sending we take the one year history of the contact and compute priors based on previous send times.
 This way we have as much information as possible for new contacts as well.
 
