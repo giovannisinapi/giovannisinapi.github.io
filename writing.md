@@ -29,7 +29,7 @@ Available in Italian on:
 <br>
 
 
-<img class="profile-picture" src="https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/551596_348133375255219_2027947685_n.jpg?_nc_cat=0&oh=407719c5b73cb99be5e7f306dec3c562&oe=5B7EAB4A">
+<img class="profile-picture" height='50' src="https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/551596_348133375255219_2027947685_n.jpg?_nc_cat=0&oh=407719c5b73cb99be5e7f306dec3c562&oe=5B7EAB4A">
 
 
 **Prima o poi vanno via**<br>
