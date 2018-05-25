@@ -8,9 +8,9 @@ This page contains a list of my novels.
 
 <br>
 
-<img class="profile-picture" width='100' src="https://img.ibs.it/images/9788873815013_0_0_300_75.jpg">
+<img class="profile-picture" width='200' src="https://d188rgcu4zozwl.cloudfront.net/content/B00QSSR7P4/resources/1782708893">
 
-**Il Sacrificio dell'ape**
+**Il Sacrificio dell'ape** <br>
 Minerva Edizioni - Bologna, Italy - 2013
 
 Available on:
@@ -25,10 +25,10 @@ Available on:
 <br>
 
 
-<img class="profile-picture" width='100' src="https://img.ibs.it/images/9788864382913_0_0_300_75.jpg">
+<img class="profile-picture" width='200' src="https://images-na.ssl-images-amazon.com/images/I/81gDvAblb%2BL.jpg">
 
 
-**Prima o poi vanno via**
+**Prima o poi vanno via**<br>
 Zona Edizioni - Arezzo, Italy - 2012
 
 Available on:
