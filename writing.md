@@ -29,7 +29,7 @@ Available in Italian on:
 <br>
 
 
-<img class="profile-picture" width='70' src="https://images-na.ssl-images-amazon.com/images/I/81gDvAblb%2BL.jpg">
+<img class="profile-picture" width='50' src="https://images-na.ssl-images-amazon.com/images/I/81gDvAblb%2BL.jpg">
 
 
 **Prima o poi vanno via**<br>
