@@ -29,7 +29,7 @@ Available in Italian on:
 <br>
 
 
-<img class="profile-picture" src="https://images-na.ssl-images-amazon.com/images/I/81gDvAblb%2BL.jpg">
+<img class="profile-picture" src="https://images-na.ssl-images-amazon.com/images/I/61E5kUD9YZL._SX354_BO1,204,203,200_.jpg">
 
 
 **Prima o poi vanno via**<br>
@@ -44,5 +44,7 @@ Available in Italian on:
 * [ibs](https://www.ibs.it/prima-o-poi-vanno-via-libro-giovanni-sinapi/e/9788864382913)
 
 
+<br>
+<br>
 <br>
 <br>
