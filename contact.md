@@ -5,8 +5,6 @@ is_contact: true
 
 * Email: [g.sinapi@gmail.com](mailto: g.sinapi@gmail.com)
 
-* Phone: [+1 2064997352](tel:+1 2064997352)
-
 ---
 
 
