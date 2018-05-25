@@ -29,7 +29,7 @@ Available in Italian on:
 <br>
 
 
-<img class="profile-picture" src="https://images-na.ssl-images-amazon.com/images/I/61E5kUD9YZL._SX354_BO1,204,203,200_.jpg">
+<img class="profile-picture" src="http://www.telefree.it/data/2012/20120724_175454_1.jpg">
 
 
 **Prima o poi vanno via**<br>
