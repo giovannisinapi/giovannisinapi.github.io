@@ -16,7 +16,7 @@ One common approach is to choose different send times and measure the Open Rate 
 <br>
 
 
-### math (start with bayesian) stucchio all the sections in general and priors + mathematical approach in STO (priors): APPROACH
+### Approach
 
 The goal of the bandit algorithm is to do the following: display all possible time slots to a random selection of users, and measure in which time slots the emails are opened more frequently. Over time, it will use these observations to infer which send times have the higher OR. Then, once the estimation of the OR becomes more precise, it will preferentially display the time slots with the higher OR.
 
@@ -40,30 +40,44 @@ If the prior probability distributions are in the same family as the posterior d
 
 In our case, since we are measuring a binary outcome (did somebody open or not the email), we know that we are dealing with the Bernoulli distribution, making our likelihood:
 
-\\[ \large P(X \mid\theta) = \prod_{i=1}^N \theta^{x_i}(1-\theta)^{1-x_i} \\]
+\\[ \P(X \mid\theta) = \prod_{i=1}^N \theta^{x_i}(1-\theta)^{1-x_i} \\]
 
 The conjugate prior to the Bernoulli distribution is the Beta distribution:
 
 \\[  P(\theta_i=x) = \frac{ x^{\alpha_i-1}(1-x)^{\beta_i-1} }{B(\alpha_i, \beta_i)} \equiv f_{\alpha_i,\beta_i}(x) \\]
 
 
-The parameters \\( \alpha_i, \beta_i > 1 \\) are the prior parameters.
+The parameters \\( \alpha_i, \beta_i > 1 \\) are the prior parameters. If we considered that all possible values of \\( \theta_i \\) are equally likely, a reasonable choice would have been \\( \alpha_i=\beta_i=1 \\), which amounts to the uniform distribution on \\( [0,1] \\). However, since we have observed past data for our users, we want to incorporate this information into our bandit algorithm. Therefore we fit a beta distribution to our empirical data and build our priors parameters based on the aggregate open rate of all relevant contacts for each bandit (time slot).
+
+After sending emails in the time slot \\( i \\) to \\( \n_i \\) contacts, we have observed that \\( \s_i \\) of them have actually opened the email in that time slot \\( i \\). Therefore we now want to compute the posterior distribution. Considered our prior \\( f_{\alpha_i,\beta_i}(\theta_i) \\), we can compute the posterior as follows:
+
+\\[ \textrm{posterior} = f_{\alpha_i+s_i, \beta_i+n_i-s_i}(\theta_i) \\]
+
+In order to update our probability distribution describing \\( \theta_i \\), we need only to update the parameters of our beta distribution. As we run more experiments, our probability distribution becomes sharper:
+
+![image](https://www.chrisstucchio.com/blog_media/2013/bayesian_bandit/beta_distribution_evolution.png)
+
+Now we have to construct a method to optimize our open rates and find the best time slots.
+
+
+### Algorithm
+
+The \\( \texttt{Bayesian Bandits Strategy} \\) to find the best arm of a Multi-armed bandit is:
+
+1. Sample a random variable \\( \theta_i \\) from the prior of bandit \\( i \\), for all \\( i \\)
+2. Select the bandit with the largest sample, i.e. select bandit \\( I = \argmax\X_b \\)
+3. Observe the result of pulling bandit \\( I \\), and update the prior of bandit \\( I \\).
+4. Return to 1.
+
+The basic idea of this strategy is to randomly pick each arm according to its probability of being optimal. The algorithm starts with a prior belief about the expected reward for each arm. During a trial, a random sample is generated from the prior on each arm. The arm chosen is the one which generated the largest sample. After feedback is received, the prior belief is updated to a posterior belief. Because we are using conjugate priors, the prior and posterior take the same form; so we can simply repeat the sampling procedure on the next trial, treating the posterior as the new prior.
+The algorithm ensures that arms with a larger expected reward will tend to be exploited (picked more often). The randomness in choice of arm ensures that the algorithm continues to explore.
+
+### Application and results
 
 
 
 
 
-Incorporating priors:
-
- in my model we have information from each contact for one year.
-One reasonable choice is αi=βi=1, which amounts to the uniform distribution on [0,1]. What this means is that we are assuming that all possible values of θi are equally likely. Depending on the circumstances (which I'll explain shortly), we might want to choose other possible values.
-
-Hi, we started with priors based on all the users with past data for a given client. The priors depend on the aggregated open rate of all relevant contacts. We use these priors for each bandit.
-
-
-Updating our beliefs
-
-Optimizing click throughs
 
 
 
@@ -86,9 +100,8 @@ Block:
 Block:
 \\[ P(a < \theta_i < b) = \int_a^b f(x) dx \\]
 
-### steps algorithm to sum up (Sto)
-### application to email campaign (STO)
-### results (Pulls and OR)
+
+### application to email campaign (STO)+ + Graph of best hours (choose only from 2pm to midnight) + Optimizing click through + Empirics of including priors K and N (1000 and 1000) (Pulls and OR)  + results
 
 
 
