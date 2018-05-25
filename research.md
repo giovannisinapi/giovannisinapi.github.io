@@ -80,7 +80,7 @@ We can assume each contact has an open rate in specific hour slots of the day an
 
 ![image](images/new.png)
 
-From the graph above, it seems the most intense time to send and respond to emails is from 2 pm to midnight. Therefore, I selected 11 different 1-hour slots (corresponding to the aforementioned hours) and I decided on one sending in detail as follows: sample once from each of the 11 beta distributions and then run the algorithm for this tuple of \\( \theta_i \\) where \\( i= 1...11 \\), for k trials. I then repeated the experiment for N different possible days, or equivalently for N different tuples of \\( \theta_i \\).
+From the graph above, it seems that the most active time to send and respond to emails is from 2 pm to midnight. Therefore, I selected 11 different 1-hour slots (corresponding to the aforementioned hours) and I decided on one sending in detail as follows: sample once from each of the 11 beta distributions and then run the algorithm for this tuple of \\( \theta_i \\) where \\( i= 1...11 \\), for k trials. I then repeated the experiment for N different possible days, or equivalently for N different tuples of \\( \theta_i \\).
 Before each sending we take the one year history of the contact and compute priors based on previous send times.
 This way we have as much information as possible for new contacts as well.
 
@@ -88,30 +88,6 @@ This way we have as much information as possible for new contacts as well.
 
 
 
-
-
-
-
-
-block:
-\\[ \frac{1}{n^{2}} \\]
-<br>
-<br>
-
-inline
-\\( 1/x^{2} \\)
-
-inline
-\\( 1/x^{2} \\)
-
-Block:
-\\[ P(a < \theta_i < b) = \int_a^b f(x) dx \\]
-
-Block:
-\\[ P(a < \theta_i < b) = \int_a^b f(x) dx \\]
-
-
-### application to email campaign (STO)+ + Graph of best hours (choose only from 2pm to midnight) + Optimizing click through + Empirics of including priors K and N (1000 and 1000) (Pulls and OR)  + results
 
 
 
