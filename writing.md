@@ -11,7 +11,11 @@ This page contains a list of my novels.
 <img class="profile-picture" width='100' src="https://d188rgcu4zozwl.cloudfront.net/content/B00QSSR7P4/resources/1782708893">
 
 **Il Sacrificio dell'ape** <br>
-Minerva Edizioni - Bologna, Italy - 2013
+*Minerva Edizioni - Bologna, Italy - 2013*
+
+"Il Sacrificio dell'Ape" is my second novel, published by Minerva Edizioni. It is the story of two friends whose lives unfold parallel and distant. Robert Duncan lives in Los Angeles: he is a respected executive of a pharmaceutical company and he considers his career much more important than his family.
+On the other hand, Peter Dover lives in Washington D.C.: he is misogynist and misanthrope, cynical and depressed; his only reason for living is acting.
+The friendship between the two dates back to many years before and was broken by some dramatic events, causing their separation for more than thirty years. But, in the most important day of the whole career of Robert, their paths will cross again, and then one of them will have to sacrifice for the other one.
 
 Available in Italian on:
 * [Amazon](https://www.amazon.com/sacrificio-dellape-Giovanni-Sinapi/dp/8873815014)
@@ -25,11 +29,13 @@ Available in Italian on:
 <br>
 
 
-<img class="profile-picture" width='100' src="https://images-na.ssl-images-amazon.com/images/I/81gDvAblb%2BL.jpg">
+<img class="profile-picture" width='70' src="https://images-na.ssl-images-amazon.com/images/I/81gDvAblb%2BL.jpg">
 
 
 **Prima o poi vanno via**<br>
-Zona Edizioni - Arezzo, Italy - 2012
+*Zona Edizioni - Arezzo, Italy - 2012*
+
+"Prima o poi vanno via" is my first novel, published by Zona. The protagonist of the novel is John Allister, an eclectic, ambitious and atheist artist who lives in New York, dominated by indifference and rampant consumerism. John jealously guards his works and always paints in the dark, without revealing to anybody the inner meaning of his art. Ironically he was hired as a maintenance worker in a church, a job he was forced to accept because, orphaned of both parents, his financial situation was not at all reassuring. From this moment, begins the heated ideological debates with the Reverend Janus Callaghan, humble and forgiving man of faith, who will try in vain to undermine his leathery atheism. A whirlwind of characters revolves around the magmatic existence of John, until one of his paintings, painted in a filthy alley in Manhattan, will unexpectedly change the course of his life.
 
 Available in Italian on:
 * [Amazon](https://www.amazon.ca/Prima-poi-vanno-Giovanni-Sinapi/dp/8864382917)
