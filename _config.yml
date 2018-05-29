@@ -1,6 +1,8 @@
 title: Giovanni Sinapi
 url: "https://giovannisinapi.github.io"
 baseurl: ""
+description: >
+  The official website of Giovanni Sinapi
 
 markdown: kramdown
 mathjax: true
