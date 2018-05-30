@@ -65,7 +65,7 @@ Now we have to construct a method to optimize our open rates and find the best t
 The **Bayesian Bandits Strategy** to find the best arm of a Multi-armed bandit is:
 
 1. Sample a random variable \\( \theta_i \\) from the prior of bandit \\( i \\), for all \\( i \\)
-2. Select the bandit with the largest sample, i.e. select bandit \\( I = argmax(X_b) \\)
+2. Select the bandit with the largest sample, i.e. select bandit \\( I = argmax(\theta_i) \\)
 3. Observe the result of pulling bandit \\( I \\), and update the prior of bandit \\( I \\).
 4. Return to 1.
 
