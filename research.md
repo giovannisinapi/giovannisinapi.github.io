@@ -80,7 +80,7 @@ We can assume each contact has an open rate in specific hour slots of the day an
 
 ![image](images/new.png)
 
-From the graph above, it seems that the most active time to send and respond to emails is from 2 pm to 11 pm. Therefore, I selected 10 different 1-hour slots (corresponding to the aforementioned hours) and I decided on one sending in detail as follows: sample once from each of the 10 beta distributions and and choose the slot with the highest sample value. Therefore, I drew a tuple (\\( \theta_i,...,\theta_n), where i=1,...,10\\) from my prior distribution and run the algorithm for this tuple, for k trials. I then repeated the experiment for N different possible days, or equivalently for N different tuples of (\\( \theta_i,...,\theta_n)\\).
+From the graph above, it seems that the most active time to send and respond to emails is from 2 pm to 11 pm. Therefore, I selected 10 different 1-hour slots (corresponding to the aforementioned hours) and I decided on one sending in detail as follows: sample once from each of the 10 beta distributions and and choose the slot with the highest sample value. Therefore, I drew a tuple (\\( \theta_i,...,\theta_n)\\) - where i=1,...,10 - from my prior distribution and run the algorithm for this tuple, for k trials. I then repeated the experiment for N different possible days, or equivalently for N different tuples of (\\( \theta_i,...,\theta_n)\\).
 Before each sending we take the one year history of the contact and compute priors based on previous send times.
 This way we have as much information as possible for new contacts as well.
 
