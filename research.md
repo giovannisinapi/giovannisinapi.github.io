@@ -84,9 +84,11 @@ From the graph above, it seems that the most active time to send and respond to 
 Before each sending we take the one year history of the contact and compute priors based on previous send times.
 This way we have as much information as possible for new contacts as well.
 
+![image](images/result.png)
 <br>
+![image](images/or.png)
 
-The results of this algorithm are shown in the graphs above. At the beginning, all the 10 hour-slots were chosen with roughly equal probability. Over time, evidence accumulated that the time slot 5pm was considerably better than the others. Accordingly, the algorithm switched to select primarily the time slot 5pm, and the overall Open Rate of the experiment converged to 0.4 (the optimal OR).
+The results of this algorithm are shown in the graphs above. At the beginning, all the 10 hour-slots were chosen with roughly equal probability. Over time, evidence accumulated that the time slot 4pm was considerably better than the others, followed by 5pm, 6pm and 3pm. Accordingly, the algorithm switched to select primarily the time slot 4pm, and the overall Open Rate of the experiment converged to roughly 0.4 (the optimal OR).
 
 
 
