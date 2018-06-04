@@ -80,9 +80,14 @@ We can assume each contact has an open rate in specific hour slots of the day an
 
 ![image](images/new.png)
 
-From the graph above, it seems that the most active time to send and respond to emails is from 2 pm to midnight. Therefore, I selected 11 different 1-hour slots (corresponding to the aforementioned hours) and I decided on one sending in detail as follows: sample once from each of the 11 beta distributions and and choose the slot with the highest sample value. Therefore, I drew a tuple (\\( \theta_1,\theta_2, \theta_3, \theta_4, \theta_5, \theta_6, \theta_7, \theta_8, \theta_9, \theta_10, \theta_11 \\)) from my prior distribution and run the algorithm for this tuple, for k trials. I then repeated the experiment for N different possible days, or equivalently for N different tuples of (\\( \theta_1,\theta_2, \theta_3, \theta_4, \theta_5, \theta_6, \theta_7, \theta_8, \theta_9, \theta_10, \theta_11 \\)).
+From the graph above, it seems that the most active time to send and respond to emails is from 2 pm to 11 pm. Therefore, I selected 10 different 1-hour slots (corresponding to the aforementioned hours) and I decided on one sending in detail as follows: sample once from each of the 10 beta distributions and and choose the slot with the highest sample value. Therefore, I drew a tuple (\\( \theta_i,...,\theta_n), where i=1,...,10\\) from my prior distribution and run the algorithm for this tuple, for k trials. I then repeated the experiment for N different possible days, or equivalently for N different tuples of (\\( \theta_i,...,\theta_n)\\).
 Before each sending we take the one year history of the contact and compute priors based on previous send times.
 This way we have as much information as possible for new contacts as well.
+
+<br>
+
+The results of this algorithm are shown in the graphs above. At the beginning, all the 10 hour-slots were chosen with roughly equal probability. Over time, evidence accumulated that the time slot 5pm was considerably better than the others. Accordingly, the algorithm switched to select primarily the time slot 5pm, and the overall Open Rate of the experiment converged to 0.4 (the optimal OR).
+
 
 
 
